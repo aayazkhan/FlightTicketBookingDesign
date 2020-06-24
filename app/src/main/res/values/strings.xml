@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FlightTicketBookingDesign</string>
+    <string name="search">Search</string>
+    <string name="flight">Flight</string>
+    <string name="one_way">ONE WAY</string>
+    <string name="round_trip">ROUND TRIP</string>
+    <string name="multicity">MULTICITY</string>
+    <string name="recent_nsearches">RECENT \nSEARCHES</string>
+</resources>

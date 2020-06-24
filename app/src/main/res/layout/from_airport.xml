@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textViewFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FROM"
+        android:textColor="@color/colorGray" />
+
+    <TextView
+        android:id="@+id/textViewAirportShortName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewFrom"
+        android:layout_centerVertical="true"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="New Delhi"
+        android:textColor="@color/colorblacklite"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewAirportCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewFrom"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/textViewAirportShortName"
+        android:background="@drawable/airport_code_background"
+        android:padding="5dp"
+        android:text="DEL" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewAirportShortName"
+        android:text="Indira Gandhi International Airport" />
+
+</RelativeLayout>
